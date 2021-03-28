@@ -1,0 +1,22 @@
+.ScrollTopButton {
+	width: 64px;
+	height: 64px;
+	position: fixed;
+
+	overflow: hidden;
+	z-index: 99999999;
+	background-image: url("/photos/arrow5.png");
+	right: 40px;
+	bottom: 25px;
+	transition: all 0.2s ease-in-out;
+	opacity: 0;
+}
+
+.ScrollTopButton.show {
+	opacity: 0.7;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+.ScrollTopButton.show:hover {
+	opacity: 1;
+}
